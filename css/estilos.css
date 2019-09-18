@@ -194,3 +194,62 @@ display: block;
 box-sizing: border-box;
 resize: none;
 }
+
+
+/*/////////////////////////////////////////////*/
+
+.nuevos_favoritos{
+    margin-top: 35px;
+    padding: 0 35px 0 35px;
+    border-bottom: 0.05rem solid #DCDEDD;
+    border-bottom-color: rgb(220, 222, 221);
+    padding-bottom: 35px;
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 5;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+
+/*/////////////////////////////////////////////*/
+
+.publicidad1_home{
+margin-top: 35px;
+padding: 0 35px 0 35px;
+border-bottom: 0.05rem solid #DCDEDD;
+border-bottom-color: rgb(220, 222, 221);
+padding-bottom: 35px;
+display: flex;
+flex-flow: row nowrap;
+}
+
+.imagen {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin: 25px;
+}
+
+.texto {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin: 5px;
+
+}
