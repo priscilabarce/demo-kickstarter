@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Maison Neue Book";
+  src: url(./maison-neue-book.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header {
+  height: 65px;
+  border-bottom: 0.1rem solid #DCDEDD;
+  border-bottom-color: rgb(220, 222, 221);
+  padding: 0px 30px 0px 30px;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+
+.categories {
+  height: 60px;
+  border-bottom: 0.1rem solid #DCDEDD;
+  border-bottom-color: rgb(220, 222, 221);
+}
+
+
+
+#botonera {
+  padding: 0;
+}
+#botonera li {
+  display: inline;
+  }
+#botonera li a {
+  text-decoration: none;
+  float: left;
+  padding: 0px 15px 0px 15px;
+  }
+
+
+
+
+
+
+.menu-left {
+  padding-left: 16px;
+}
+
+.valign-middle {
+  fill: #6bd07a;
+}
+
+a,
+h2,
+h3 {
+  color: #282828 !important;
+}
+
+* {
+  font-family: "Maison Neue Book";
+  font-size: 0.95rem;
+  color: #656969;
+}
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 18px;
+  line-height: 3;
+}
+

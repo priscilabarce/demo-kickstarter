@@ -1,0 +1,84 @@
+* {
+    /*margin: 10px;*/
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/*/////////////////////////////////////////////*/
+.cabecera {
+    background: #000000;
+    display: flex;   
+    flex-flow: column nowrap;
+}
+    .menu{
+        background: #bbeaa6;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        height: 65px;
+        border-bottom: 0.1rem solid #DCDEDD;
+        border-bottom-color: rgb(220, 222, 221);
+    }
+    .nav1{
+        background: #8105d8;
+        flex: 1 1 auto;
+    }
+    .logo{
+        background: #8105d8;
+        flex: 1 1 auto;
+        display: flex;  
+        justify-content: center;
+    }
+    .nav2{
+        background: #8105d8;
+        flex: 1 1 auto;
+        display: flex;  
+        justify-content: end;
+    }
+
+
+/*/////////////////////////////////////////////*/
+.categorias {
+   /* background: #000000;*/
+    }
+    .menu_categorias{
+       /* background: #3c9d9b;*/
+       display: flex;   
+       justify-content: center;
+    }
+
+    #botonera {
+        padding: 0;
+      }
+      #botonera li {
+        display: inline;
+        }
+      #botonera li a {
+        text-decoration: none;
+        float: left;
+        padding: 0px 15px 0px 15px;
+        }
+/*/////////////////////////////////////////////*/
+.section {
+    background: #000000;
+    display: flex;
+    flex-flow: row nowrap;
+}
+    .destacado{
+        background: #3c9d9b; 
+        flex: 0.5 1 auto;
+    }
+
+    .recomendados{
+        background: #ce2e6c;
+        flex: 1 1 auto;
+    }
+
+    .recomendados article{
+        background: #b2e4d5;
+    }
