@@ -4,179 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>KickStarte con FlexBox</title>
+    <title>Kick Starter | flexbox | bootstrap</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous" />
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos-kick.css">
+
 </head>
-
-
-
-
-
 <body>
 
 <div class="padre">
 
 
-<header class="cabecera">
-    <div class="menu">
+
+
+
+<header id="cabecera" role="banner">
         <div class="nav1">
-            <span class="botones_superiores"><a href="#">Explorar</a></span>
-            <span class="botones_superiores"><a href="#">Empieza un proyecto</a></span>                    
+                <span class="botones_superiores"><a href="#">Explorar</a></span>
+                <span class="botones_superiores"><a href="#">Empieza un proyecto</a></span> 
         </div>
 
-        <div class="logo"> <img src="./img/logo.png" width="30%" alt=""> </div>
+        <div class="logo"><img src="./img/logo.png" alt=""></div>
 
         <div class="nav2">
-            <span class="botones_superiores"><a href="#">Búsqueda</a></span>
-            <span class="botones_superiores"><a href="#">Iniciar sesión</a></span>
-            
+                <span class="botones_superiores"><a href="#">Búsqueda</a></span>
+                <span class="botones_superiores"><a href="#">Iniciar sesión</a></span>
         </div>
-    </div>
-</header>
-
+</header>   
 
 
 
 
 
 <div class="categorias">
-    <div class="menu_categorias">
-        
-        <ul id="botonera">
-            <li><a href=”#”>Arte</a></li>
-            <li><a href=”#”>Cómics & ilustración</a></li>
-            <li><a href=”#”>Diseño & tecnología</a></li>
-            <li><a href=”#”>Cine</a></li>
-            <li><a href=”#”>Comida & creaciones</a></li>
-            <li><a href=”#”>Juegos</a></li>
-            <li><a href=”#”>Música</a></li>
-            <li><a href=”#”>Publicaciones</a></li>
-        </ul>
-
-
-    </div>
+                <div class="menu_categorias">
+                    
+                    <ul id="botonera">
+                        <li><a href=”#”>Arte</a></li>
+                        <li><a href=”#”>Cómics & ilustración</a></li>
+                        <li><a href=”#”>Diseño & tecnología</a></li>
+                        <li><a href=”#”>Cine</a></li>
+                        <li><a href=”#”>Comida & creaciones</a></li>
+                        <li><a href=”#”>Juegos</a></li>
+                        <li><a href=”#”>Música</a></li>
+                        <li><a href=”#”>Publicaciones</a></li>
+                    </ul>
+            
+            
+                </div>
 </div>
 
+<section class="novedades"></section>
 
 
 
 
 
-<section class="section container">
-    <div class="destacado">
-            <div class="titulos_home">Proyecto Destacado</div>  
+<section class="section_noticias container">
+                <div class="destacado">
+                        <div class="titulos_home">Proyecto Destacado</div>  
+                        
+                        <div class="imgen_destacada">
+                            <img src="./img/kmpqhhk-redd_kross.jpg" width="100%" alt="">
+                            <div class="titulo_destacado"><h2>Born Innocent: The Redd Kross Story</h2></div>
+                            <div class="descripcio_destacado"><h4>Meet the rock ‘n’ roll lifers who pioneered beach punk.</h4></div>
+                            <div class="autor_destacado">Por Redd Kross Film</div>
+                        </div>
+                </div>
             
-            <div class="imgen_destacada">
-                <img src="./img/kmpqhhk-redd_kross.jpg" width="100%" alt="">
-                <div class="titulo_destacado"><h2>Born Innocent: The Redd Kross Story</h2></div>
-                <div class="descripcio_destacado"><h4>Meet the rock ‘n’ roll lifers who pioneered beach punk.</h4></div>
-                <div class="autor_destacado">Por Redd Kross Film</div>
-            </div>
-    </div>
-
-    <div class="recomendados">
-                <div class="titulos_home">recomendados</div>  
-
-                <article class="article">
-                            <div class="thumb_recomendados">
-                                <img src="./img/thumbnail01.jpg" alt="">
-                            </div>                    
-                            <div class="contenido_recomendado">
-                                    Deep Green: Cascade-Siskiyou National Monument <br>
-                                    <span class="porcentaje_financiado">35 % Financiado</span>  <br>
-                                    <small>Por Mark Tribe</small>
-                            </div>
-                            <small></small>
-                </article>
-
-                <article class="article">
-                        <div class="thumb_recomendados">
-                            <img src="./img/thumbnail02.jpg" alt="">
-                        </div>                    
-                        <div class="contenido_recomendado">
-                                Deep Green: Cascade-Siskiyou National Monument <br>
-                                <span class="porcentaje_financiado">35 % Financiado</span>  <br>
-                                <small>Por Mark Tribe</small>
-                        </div>
-                </article>
-
-                <article class="article">
-                        <div class="thumb_recomendados">
-                            <img src="./img/thumbnail03.jpg" alt="">
-                        </div>                    
-                        <div class="contenido_recomendado">
-                                Deep Green: Cascade-Siskiyou National Monument <br>
-                                <span class="porcentaje_financiado">35 % Financiado</span>  <br>
-                                <small>Por Mark Tribe</small>
-                        </div>
-                </article>
-    </div>
+                <div class="recomendados">
+                            <div class="titulos_home">recomendados</div>  
+            
+                            <article class="article">
+                                        <div class="thumb_recomendados">
+                                            <img src="./img/thumbnail01.jpg" alt="">
+                                        </div>                    
+                                        <div class="contenido_recomendado">
+                                                Deep Green: Cascade-Siskiyou National Monument <br>
+                                                <span class="porcentaje_financiado">35 % Financiado</span>  <br>
+                                                <small>Por Mark Tribe</small>
+                                        </div>
+                                        <small></small>
+                            </article>
+            
+                            <article class="article">
+                                    <div class="thumb_recomendados">
+                                        <img src="./img/thumbnail02.jpg" alt="">
+                                    </div>                    
+                                    <div class="contenido_recomendado">
+                                            Deep Green: Cascade-Siskiyou National Monument <br>
+                                            <span class="porcentaje_financiado">35 % Financiado</span>  <br>
+                                            <small>Por Mark Tribe</small>
+                                    </div>
+                            </article>
+            
+                            <article class="article">
+                                    <div class="thumb_recomendados">
+                                        <img src="./img/thumbnail03.jpg" alt="">
+                                    </div>                    
+                                    <div class="contenido_recomendado">
+                                            Deep Green: Cascade-Siskiyou National Monument <br>
+                                            <span class="porcentaje_financiado">35 % Financiado</span>  <br>
+                                            <small>Por Mark Tribe</small>
+                                    </div>
+                            </article>
+                </div>
 </section>
 
 
+
+
+            
+            
 <div class="newsletter">
-    <p><h3>Suscríbete a nuestro boletín semanal</h3></p>
-    <p><h4>Semanalmente: Unos cuantos proyectos, seleccionados por el equipo de Kickstarter.</h4></p>
-    <p><input class="atomic-text-input" id="newsletter-signup-input" placeholder="Introducir dirección de correo electrónico" type="text" value=""></p>
-</div>
-
-
-
-
-<div class="nuevos_favoritos">
-    <div class="titulos_home">Nuevos Favoritos</div> 
-    
-            <div class="card-group card-columns">
-                            <div class="card">
-                                <img src="./img/nuevos-favoritos-01.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Dons of Disco: An Italo Disco Documentary (Finishing Funds)</h5>
-                                <p class="card-text">A lip-syncing scandal pits an American singer against an Italian male model over the legacy of 1980s 'Italo Disco' star Den Harrow.</p>
-                                <p><span>Por Jonathan Sutak</span></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <img src="./img/nuevos-favoritos-02.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">CHASING DORY Underwater Drone</h5>
-                                <p class="card-text">So small and so easy to use. Explore the waters below with this incredibly portable and affordable underwater drone.</p>
-                                <p><span>Por Chasing Underwater Drones</span></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <img src="./img/nuevos-favoritos-03.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">TRIWA TIME FOR PEACE II Watch made from Illegal Firearms</h5>
-                                <p class="card-text">The Watch That Takes a Stand Against Gun Violence.</p>
-                                <p><span>Por Ludvig Scheja</span></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <img src="./img/nuevos-favoritos-04.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">2019 Snowman Greeting Card Collection</h5>
-                                <p class="card-text">A limited-run of the 2019 collection of 10 whimsical snowman themed greeting cards featuring all-new illustrations by Mark Molchan</p>
-                                <p><span>Por ArtOrder</span></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <img src="./img/nuevos-favoritos-05.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Granbyware - 100% Recycled Ceramic Dinnerware 💥</h5>
-                                <p class="card-text">Beautiful Plates, Bowls & Mugs made from ceramic, glass and stone waste.</p>
-                                <p><span>Por Granby Workshop</span></p>
-                                </div>
-                            </div>
-            </div>  
+<p><h3>Suscríbete a nuestro boletín semanal</h3></p>
+<p><h4>Semanalmente: Unos cuantos proyectos, seleccionados por el equipo de Kickstarter.</h4></p>
+<p><input class="atomic-text-input" id="newsletter-signup-input" placeholder="Introducir dirección de correo electrónico" type="text" value=""></p>
 </div>
 
 
@@ -185,30 +131,18 @@
 
 
 
-<div class="publicidad1_home">
-        <div class="imagen">
-        <img src="./img/publicidad.jpg" alt="">
-        </div>
-
-        <div class="texto">
-            <p>
-            <h3>Shapeshift</h3><br>
-            Esta próxima convocatoria para crear proyectos te desafía a convertir la “basura” en un nuevo diseño de producto.
-            </p>
-            <p> Más información </p>
-        </div>
-</div>
 
 
 
 
 
 
-<footer class="container">
-    <div class="info-footer">
-        Kickstarter
-    </div>
-</footer>
+
+
+
+
+
+
 
 
 
@@ -219,6 +153,13 @@
 </div>
 
 
-    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>
